@@ -1,0 +1,33 @@
+.about-container{
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.p-about{
+    
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px
+}
+
+.about-box-container{
+    width: 98%;
+     margin: 0 auto;  
+     display: flex;
+}
+
+.three-box{
+    border: 0px solid rebeccapurple;
+    width: 32%;
+ 
+    /* float: left; */
+    gap: 3rem;
+    margin: 0 1% 1.5% 0;
+    text-align: center;
+    height: 27rem;
+    background-image:linear-gradient(to bottom right, #d10707c7 46%, #630505ea 83%),url('../pictures/schoolsite-pic1.jpg');
+    background-size: cover;
+}

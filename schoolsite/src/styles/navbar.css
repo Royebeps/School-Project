@@ -1,0 +1,16 @@
+.nav-container{
+    background-color: rgb(209, 72, 30);
+    height: 6.1rem;
+ 
+}
+
+.nav-list-container{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    top: 35px;
+}

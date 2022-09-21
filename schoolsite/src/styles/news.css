@@ -1,0 +1,31 @@
+.row {
+    margin: 0 auto;
+    height: 25rem;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.row .col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+.wrap {
+    text-align: left;
+    width: auto;
+    border-bottom: 0.002px solid rgba(255, 0, 0, 0.5);
+    display:block;
+  }
+
+  .colArea{
+    
+  }
