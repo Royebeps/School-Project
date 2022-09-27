@@ -14,3 +14,17 @@
     position: relative;
     top: 35px;
 }
+
+.nav-list-item{
+font-size: 1.2rem;
+font-weight: 400;
+padding-right: 1em;
+}
+
+.j{
+    padding-right: 7em;
+}
+
+.r{
+    padding-left: 7em;
+}

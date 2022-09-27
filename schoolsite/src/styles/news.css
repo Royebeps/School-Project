@@ -1,25 +1,30 @@
-.row {
+.row-n {
     margin: 0 auto;
-    height: 25rem;
+    padding-bottom: 10em;
     justify-content: center;
     text-align: center;
+    padding-left: 13em;
+    padding-right: 13em;
+    padding-top: 5em;
+ 
 }
 
 
-.row::after {
+.row-n::after {
     content: "";
     display: table;
     clear: both;
-
+    
 }
 
 
-.row .col-1-2 {
-    width: 50%;
+.row-n .col-1-2 {
+    width: 40%;
     float: left;
+    
 }
 
-.wrap {
+.wrap-n {
     text-align: left;
     width: auto;
     border-bottom: 0.002px solid rgba(255, 0, 0, 0.5);
@@ -28,4 +33,23 @@
 
   .colArea{
     
+  }
+
+  .e{
+    line-height: 2em;
+    margin-top: 1em;
+  }
+
+  .t{
+    margin-bottom: 2.8em;
+  }
+  .news-header{
+    margin-bottom: 2.5em;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+color:rgb(66, 2, 2);
+  }
+  .qq{
+    margin-left: 10%;
   }

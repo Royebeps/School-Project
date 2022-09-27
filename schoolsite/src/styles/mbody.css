@@ -1,6 +1,7 @@
 .mbody-container{
-    height: 40vh;
+    height: 50vh;
   background-color: rgb(233, 229, 229);
+  margin-top: 5em;
 }
 
 .row {
@@ -25,4 +26,12 @@
 .mbody-content{
     justify-content: center;
     text-align: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.mbody-item{
+justify-content: center;
+position: relative;
+top: 100%;
 }

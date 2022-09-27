@@ -1,4 +1,5 @@
-import Navbar from './Navbar';
+import NNavbar from './NNavbar';
+// import Navbar from './Navbar';
 import Header from './Header';
 import About from './About';
 import Mbody from './Mbody';
@@ -7,7 +8,8 @@ import Footer from './Footer';
 function App() {
   return (
     <div>
-      <Navbar/>
+      <NNavbar/>
+      {/* <Navbar/> */}
       <Header/>
       <About/>
       <Mbody/>

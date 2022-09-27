@@ -15,20 +15,29 @@ function Footer() {
     
     return (
         <div className="footer">
-             <div data-aos="fade-up" className="rowf center-text wrap">
-                <div className="col-1-4"><p className= "footer-p">About Us</p></div>
-           <div className="col-1-4"><p className= "footer-p">Academics</p></div>
-         <div className="col-1-4"><p className= "footer-p">All about cars</p></div>
-         <div className="col-1-4"><p className= "footer-p">Discover More</p></div>
+             <div data-aos="fade-up" className="rowf fcenter-text wrap">
+                <div className="footer-col-1-4"><p className= "footer-p">About Us</p></div>
+           <div className="footer-col-1-4"><p className= "footer-p">Academics</p></div>
+         <div className="footer-col-1-4"><p className= "footer-p">All about cars</p></div>
+         <div className="footer-col-1-4"><p className= "footer-p">Discover More</p></div>
   </div>
              <div data-aos="fade-up" className="rowf center-text space">
-                <div className="col-1-4"><ul className="footer-list">
+                <div className="footer-col-1-4"><ul className="footer-list">
                     <li className=" footer__list-child">Browse</li>
                     <li className=" footer__list-child">Evergree</li>
                     <li className=" footer__list-child">Sports</li>
                     <li className=" footer__list-child">Driving events</li>
-                <li className=" footer__list-child">something</li></ul></div>
-                <div className="col-1-4">
+                <li className=" footer__list-child">something</li></ul>
+                </div>
+                <div className="footer-col-1-4">
+                    <ul className="footer-list">
+                    <li className=" footer__list-child">Browse</li>
+                    <li className="footer__list-child ">Evergree</li>
+                    <li className="footer__list-child  ">Sports</li>
+                    <li className=" footer__list-child ">Driving events</li>
+                <li className=" footer__list-child ">something</li></ul>
+                </div>
+                                <div className="footer-col-1-4">
                     <ul className="footer-list">
                     <li className=" footer__list-child">Browse</li>
                     <li className=" footer__list-child">Evergree</li>
@@ -36,15 +45,7 @@ function Footer() {
                     <li className=" footer__list-child">Driving events</li>
                 <li className=" footer__list-child">something</li></ul>
                 </div>
-                                <div className="col-1-4">
-                    <ul className="footer-list">
-                    <li className=" footer__list-child">Browse</li>
-                    <li className=" footer__list-child">Evergree</li>
-                    <li className=" footer__list-child">Sports</li>
-                    <li className=" footer__list-child">Driving events</li>
-                <li className=" footer__list-child">something</li></ul>
-                </div>
-                                <div className="col-1-4">
+                                <div className="footer-col-1-4">
                     <ul className= "footer-list">
                     <li className=" footer__list-child">Browse</li>
                     <li className=" footer__list-child">Evergree</li>

@@ -1,33 +1,225 @@
 .about-container{
     text-align: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding-left:20em ;
+    padding-right: 20em;
+    padding-top: 5em;
+
 }
 
+.p-about1{
+    font-size: 3rem;
+    font-weight: 800;
+}
 .p-about{
-    
+    font-size: 1rem;
+    font-weight: 350;
+    line-height: 23px;
         display: block;
         margin-block-start: 1em;
-        margin-block-end: 1em;
+        margin-block-end: 1.3em;
         margin-inline-start: 0px;
-        margin-inline-end: 0px
+        margin-inline-end: 0px;
 }
 
 .about-box-container{
     width: 98%;
      margin: 0 auto;  
      display: flex;
+     gap: 5em;
+     padding-top: 20px;
+     padding-bottom: 20px;
 }
 
-.three-box{
-    border: 0px solid rebeccapurple;
-    width: 32%;
- 
-    /* float: left; */
-    gap: 3rem;
-    margin: 0 1% 1.5% 0;
-    text-align: center;
-    height: 27rem;
-    background-image:linear-gradient(to bottom right, #d10707c7 46%, #630505ea 83%),url('../pictures/schoolsite-pic1.jpg');
-    background-size: cover;
+.about-button{
+    
+        border: 1px solid #f0f03b;
+        display: inline-block;
+        cursor: pointer;
+        color: #d9dd00;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 15px 23px 15px 23px;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+        text-decoration: none;
+        /* text-shadow: 0px 1px 0px #490101; */
+        transition: all .8s;
+        background-image: linear-gradient(rgba(27, 2, 2, 0.938), rgba(83, 2, 2, 0.884));
+    }
+
+.about-button:hover{
+    color: #690303;
+    background-image: linear-gradient(rgb(189, 189, 1), yellow);
+    border: 1px solid #3100002f;
 }
+
+
+.three-box{
+
+    box-shadow: 0 20px 50px rgb(90, 23, 29);
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 27rem;
+background-size: cover;
+    background-image: linear-gradient(rgba(27, 2, 2, 0.938), rgba(83, 2, 2, 0.884)),url('../pictures/schoolsite-pic1.jpg');
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid #292929;
+    color: rgb(247, 247, 247);
+    padding: 20px;
+
+}
+
+
+.three-box:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    
+    background-image: linear-gradient(rgba(22, 0, 0, 0.41), rgba(37, 1, 1, 0.336));
+    transition:0.8s;
+    pointer-events: none;
+  }
+
+
+  .three-box:hover:before{
+    left:-10%;
+    transform: skewX(-5deg);
+  }
+
+  .three-text{
+    transition: all .6s ease-in-out;
+  }
+.three-box:hover .three-text{
+opacity: 0;
+}
+
+.three-box:hover .three-text-under{
+    opacity: 1;
+    transform: translateY(-60px);
+    }
+
+.three-text-under{
+    opacity: 0;
+    position: relative;
+    top: 30%;
+    transition:all .5s ease-in;
+}
+
+.three-box-content{
+    
+position:absolute;
+top:15px;
+left:15px;
+right:15px;
+bottom:15px;
+border:1px solid #f0ea91;
+padding:20px;
+text-align:center;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+.three-box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    
+  }
+  
+  .three-box span:nth-child(1)
+  {
+    transform:rotate(0deg);
+  }
+  
+  .three-box span:nth-child(2)
+  {
+    transform:rotate(90deg);
+  }
+  
+  .three-box span:nth-child(3)
+  {
+    transform:rotate(180deg);
+  }
+  
+  .three-box span:nth-child(4)
+  {
+    transform:rotate(270deg);
+  }
+  
+  .three-box span:before
+  {
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 2px;
+    background: #ffffff;
+    animation: animate 4s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+    
+    
+  } 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
